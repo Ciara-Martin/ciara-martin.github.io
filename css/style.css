@@ -1,0 +1,50 @@
+h1 {
+    padding: 10px;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+body{
+    padding: 2px;
+    background-color: #ededed;
+}
+
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-family: "helvetica", sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: justify;
+    font-family: "helvetica", sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #8cd9b3;
+}
+
+
+.rectangle {
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    right: 16px;
+    height: 600px;
+    width: 500px;
+    background-color: #8cd9b3;
+}
+
+h3 {
+    color: #8cd9b3;
+}
+
+div.relative {
+  float: right;
+}
