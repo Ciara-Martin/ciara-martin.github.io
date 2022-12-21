@@ -30,21 +30,84 @@ h2 {
     text-decoration-color: #8cd9b3;
 }
 
-
-.rectangle {
-    padding: 10px;
-    position: absolute;
-    top: 200px;
-    right: 16px;
-    height: 600px;
-    width: 500px;
-    background-color: #8cd9b3;
-}
-
 h3 {
     color: #8cd9b3;
 }
 
+h4 {
+    font-family: "helvetica", sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #8cd9b3;
+}
+
+.center {
+    text-align: center;
+}
+
 div.relative {
   float: right;
+}
+
+* {box-sizing:border-box}
+
+#gallery {
+	width: 100%;
+	padding:0;
+	margin: 0 0 0 5%;
+	overflow:hidden;
+}
+
+#gallery a img {
+    float:left;
+	padding:1%;
+	border: 1px solid #666;
+	margin: 2px 5px;
+}
+
+#video {
+    text-align: center;
+}
+.more {
+      display: none;
+   }
+button {
+  padding: 10px 15px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color:  #8cd9b3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color:  #8cd9b3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#startpage {
+    text-align: center;
+}
+
+#projects {
+    text-align: center;
+    font-family: "helvetica", sans-serif;
+    font-size: 20px;
+}
+#txt {
+    text-align: center;
+    font-family: "helvetica", sans-serif;
+    font-size: 20px;
+}
+ul {
+    text-align: center;
+    font-family: "helvetica", sans-serif;
+    font-size: 20px;
 }
